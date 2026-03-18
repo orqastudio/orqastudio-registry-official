@@ -7,10 +7,13 @@
       "displayName": "Claude Integration",
       "description": "Claude AI provider — Agent SDK sidecar + Claude Code governance hooks.",
       "repo": "orqastudio/orqastudio-plugin-claude",
+      "version": "0.1.0-dev",
+      "releaseTag": "v0.1.0-dev",
+      "sha256": "",
       "category": "ai-provider",
       "icon": "bot",
       "capabilities": ["sidecar", "hooks"],
-      "requires": { "node": ">=20" }
+      "requires": { "node": ">=22" }
     }
   ]
 }
