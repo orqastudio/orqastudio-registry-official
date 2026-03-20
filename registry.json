@@ -93,6 +93,58 @@
         "hooks"
       ],
       "requires": {}
+    },
+    {
+      "name": "@orqastudio/plugin-rust",
+      "displayName": "Rust Development",
+      "description": "Base Rust development infrastructure — clippy, rustfmt, cargo-test configuration and coding standards enforcement.",
+      "repo": "orqastudio/orqastudio-plugin-rust",
+      "version": "0.1.0-dev",
+      "releaseTag": "v0.1.0-dev",
+      "sha256": "",
+      "category": "coding-standards",
+      "icon": "settings",
+      "capabilities": ["cli-tools", "lsp"],
+      "requires": {}
+    },
+    {
+      "name": "@orqastudio/plugin-typescript",
+      "displayName": "TypeScript Development",
+      "description": "Base TypeScript development infrastructure — tsconfig presets, ESLint configs, and config composition for plugin extensions.",
+      "repo": "orqastudio/orqastudio-plugin-typescript",
+      "version": "0.1.0-dev",
+      "releaseTag": "v0.1.0-dev",
+      "sha256": "",
+      "category": "coding-standards",
+      "icon": "file-code",
+      "capabilities": ["cli-tools", "lsp"],
+      "requires": { "node": ">=22" }
+    },
+    {
+      "name": "@orqastudio/plugin-coding-standards",
+      "displayName": "Coding Standards",
+      "description": "Unified coding standards enforcement — config generation from governance rules, quality checks via orqa check.",
+      "repo": "orqastudio/orqastudio-plugin-coding-standards",
+      "version": "0.1.0-dev",
+      "releaseTag": "v0.1.0-dev",
+      "sha256": "",
+      "category": "coding-standards",
+      "icon": "shield-check",
+      "capabilities": ["cli-tools"],
+      "requires": { "node": ">=22" }
+    },
+    {
+      "name": "@orqastudio/claude-code-connector",
+      "displayName": "Claude Code Connector",
+      "description": "Bridges OrqaStudio governance with Claude Code — agent delegation, rule enforcement, skill injection, MCP/LSP servers.",
+      "repo": "orqastudio/orqastudio-connector-claude-code",
+      "version": "0.1.0-dev",
+      "releaseTag": "v0.1.0-dev",
+      "sha256": "",
+      "category": "ai-provider",
+      "icon": "bot",
+      "capabilities": ["agents", "hooks", "skills", "mcp", "lsp"],
+      "requires": { "node": ">=22" }
     }
   ]
 }
